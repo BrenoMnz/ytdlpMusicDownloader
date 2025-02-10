@@ -1,4 +1,4 @@
-﻿$email = Get-Content "email.txt"
+﻿$email = Read-Host "Insert your e-mail"
 $URL = Read-Host "Insert the youtube video or playlist URL"
 
 Set-Location -Path $DownloadPath
